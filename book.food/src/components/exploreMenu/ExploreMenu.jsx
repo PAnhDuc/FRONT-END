@@ -1,13 +1,13 @@
 import React from "react";
-import "./ExloreMenu.css";
+import "./ExploreMenu.css";
 import { menu_list } from "../../assets/assets";
 
 const ExloreMenu = ({category,setCategory}) => {
 
   return (
-    <div className="explore-menu" id="explore-menu">
+    <div className='explore-menu' id='explore-menu'>
       <h1>Explore our menu</h1>
-      <p className="explore-menu-text">Chose from a diverse menu feating a delectable array of dishes. Our mission is to satify your cravings and elevate your dining experience, one delicious meal at a time. {" "}</p>
+      <p className="explore-menu-text">Chose from a diverse menu feating a delectable array of dishes. Our mission is to satify your cravings and elevate your dining experience, one delicious meal at a time. </p>
       <div className="explore-meu-list">
          {menu_list.map(()=>{
             return (
